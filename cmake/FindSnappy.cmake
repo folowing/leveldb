@@ -6,16 +6,16 @@
 #  SNAPPY_FOUND       - True if snappy found.
 
 FIND_PATH(SNAPPY_INCLUDE_DIRS snappy.h PATHS
-  /usr/include
-  /opt/local/include
-  /usr/local/include
+  #/usr/include
+  #/opt/local/include
+  #/usr/local/include
   /tmp/usr/local/include
 )
 
 FIND_LIBRARY(SNAPPY_LIBRARIES NAMES snappy PATHS
-  /usr/local/lib
-  /opt/local/lib
-  /usr/lib
+  #/usr/local/lib
+  #/opt/local/lib
+  #/usr/lib
   /tmp/usr/local/lib
 )
 
